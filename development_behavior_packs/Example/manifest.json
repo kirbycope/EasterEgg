@@ -1,0 +1,27 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Example Behavior Pack",
+		"description": "Behavior Pack",
+		"uuid": "46f229ab-c3f2-4b1f-a83f-12ac44323b70",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 19, 60]
+	},
+	"metadata": {
+		"authors": ["Kirbycope"]
+	},
+	"modules": [
+		{
+			"description": "Data",
+			"type": "data",
+			"uuid": "4cac28ac-be44-4adf-9a6a-41e46212f383",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "d3e546b2-b304-48b9-be78-4398ed4d60cb",
+			"version": [1, 0, 0]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Easter Egg",
+		"description": "Easter Egg Resource Pack",
+		"uuid": "cdd35e71-a5f8-a0b6-777f-1a3f12c36f3e",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Kirbycope"]
+	},
+	"modules": [
+		{
+			"description": "Easter Egg",
+			"type": "resources",
+			"uuid": "5fb2b2c6-9479-a822-6272-afb502bec62c",
+			"version": [1, 0, 0]
+		}
+	]
+}

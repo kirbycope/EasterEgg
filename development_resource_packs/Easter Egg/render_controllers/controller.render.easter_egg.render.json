@@ -1,0 +1,20 @@
+{
+  "format_version": "1.19.50",
+  "render_controllers": {
+    "controller.render.easter_egg": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.default",
+            "Texture.one",
+            "Texture.two",
+            "Texture.three"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.skins[query.variant]" ]
+    }
+  }
+}

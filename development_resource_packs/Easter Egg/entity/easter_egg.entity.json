@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "kirbycope:easter_egg",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/easter_egg/easter_egg_0",
+				"one": "textures/entity/easter_egg/easter_egg_1",
+				"two": "textures/entity/easter_egg/easter_egg_2",
+				"three": "textures/entity/easter_egg/easter_egg_3"
+			},
+			"geometry": {
+				"default": "geometry.easter_egg"
+			},
+			"render_controllers": ["controller.render.easter_egg"],
+			"spawn_egg": {
+				"texture": "egg"
+			}
+		}
+	}
+}

@@ -1,0 +1,96 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "kirbycope:easter_egg",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"easter_egg:default": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"easter_egg:one": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			},
+			"easter_egg:two": {
+				"minecraft:variant": {
+					"value": 2
+				}
+			},
+			"easter_egg:three": {
+				"minecraft:variant": {
+					"value": 3
+				}
+			}
+		},
+		"components": {
+			"minecraft:nameable": {
+			},
+			"minecraft:physics": {
+				"has_gravity": true,
+				"has_collision": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:inventory": {
+				"container_type": "minecart_chest",
+				"inventory_size": 27
+			},
+			"minecraft:scale": {
+				"value": 0.75
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"sequence": [
+					{
+						"randomize": [
+							{
+								"weight": 25,
+								"add": {
+									"component_groups": [
+										"easter_egg:default"
+									]
+								}
+							},
+							{
+								"weight": 25,
+								"add": {
+									"component_groups": [
+										"easter_egg:one"
+									]
+								}
+							},
+							{
+								"weight": 25,
+								"add": {
+									"component_groups": [
+										"easter_egg:two"
+									]
+								}
+							},
+							{
+								"weight": 25,
+								"add": {
+									"component_groups": [
+										"easter_egg:three"
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}
