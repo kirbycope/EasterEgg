@@ -4,19 +4,16 @@
 		"name": "Easter Egg",
 		"description": "Easter Egg Behavior Pack",
 		"uuid": "3618c713-8dc3-21ea-4ce8-dd90d4f8e079",
-		"version": [1, 0, 0],
-		"min_engine_version": [1, 16, 0]
+		"version": [1, 1, 0],
+		"min_engine_version": [1, 26, 0]
 	},
 	"metadata": {
-		"authors": ["Kirbycope"],
-		"generated_with": {
-			"blockbench_entity_wizard": ["1.1.1"]
-		}
+		"authors": ["Kirbycope"]
 	},
 	"modules": [
 		{
 			"description": "Behavior",
-			"version": [1, 0, 0],
+			"version": [1, 1, 0],
 			"uuid": "c37c505a-e751-44a3-62d8-a29f1450754a",
 			"type": "data"
 		}
@@ -24,7 +21,7 @@
 	"dependencies": [
 		{
 			"uuid": "cdd35e71-a5f8-a0b6-777f-1a3f12c36f3e",
-			"version": [1, 0, 0]
+			"version": [1, 1, 0]
 		}
 	]
 }
